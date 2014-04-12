@@ -21,6 +21,7 @@
 		2D05388318F9694A00E237E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D05386518F9694900E237E8 /* UIKit.framework */; };
 		2D05388B18F9694A00E237E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D05388918F9694A00E237E8 /* InfoPlist.strings */; };
 		2D05388D18F9694A00E237E8 /* LocalSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D05388C18F9694A00E237E8 /* LocalSearchTests.m */; };
+		2D05389718F9695400E237E8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D05389618F9695400E237E8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		2D05388818F9694A00E237E8 /* LocalSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalSearchTests-Info.plist"; sourceTree = "<group>"; };
 		2D05388A18F9694A00E237E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D05388C18F9694A00E237E8 /* LocalSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalSearchTests.m; sourceTree = "<group>"; };
+		2D05389618F9695400E237E8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			files = (
 				2D05386418F9694900E237E8 /* CoreGraphics.framework in Frameworks */,
 				2D05386618F9694900E237E8 /* UIKit.framework in Frameworks */,
+				2D05389718F9695400E237E8 /* MapKit.framework in Frameworks */,
 				2D05386218F9694900E237E8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +104,7 @@
 		2D05386018F9694900E237E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2D05389618F9695400E237E8 /* MapKit.framework */,
 				2D05386118F9694900E237E8 /* Foundation.framework */,
 				2D05386318F9694900E237E8 /* CoreGraphics.framework */,
 				2D05386518F9694900E237E8 /* UIKit.framework */,
@@ -199,6 +203,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					2D05385D18F9694900E237E8 = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					2D05387E18F9694A00E237E8 = {
 						TestTargetID = 2D05385D18F9694900E237E8;
 					};
